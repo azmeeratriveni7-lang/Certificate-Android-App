@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="24dp" android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView android:text="MyCertify Generator" android:textSize="22sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etName" android:hint="Your Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etDomain" android:hint="Domain - Android" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnGenerate" android:text="Generate Certificate" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/tvPreview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+</LinearLayout>
